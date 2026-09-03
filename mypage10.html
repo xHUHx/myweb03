@@ -1,0 +1,38 @@
+<!doctype html>
+ 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        /* selector : Adjacent selector */
+        /* S1+S2 คือ S2 ตัวที่อยู่ถัดต่อจาก S1 เพียงตัวเดียว */
+        #aa + p{
+            color: red;
+        }
+    </style>
+
+  </head>
+ 
+  <body>
+    <div id="aa">
+        <p>11111</p>
+        <p>22222</p>
+        <span>HELLO</span>
+        <div id="bb">
+            <p>33333</p>
+            <div id="cc">
+                <p>44444</p>
+                <span>HI</span>
+            </div>
+            <p>55555</p>
+        </div>
+        <p>66666</p>
+    </div>
+    <span>HEY</span>
+    <p>77777</p>
+    <p>88888</p>
+  </body>
+</html>
+ 
